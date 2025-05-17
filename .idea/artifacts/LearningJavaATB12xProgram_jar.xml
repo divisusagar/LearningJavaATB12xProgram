@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LearningJavaATB12xProgram:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LearningJavaATB12xProgram_jar</output-path>
+    <root id="archive" name="LearningJavaATB12xProgram.jar">
+      <element id="module-output" name="LearningJavaATB12xProgram" />
+    </root>
+  </artifact>
+</component>
