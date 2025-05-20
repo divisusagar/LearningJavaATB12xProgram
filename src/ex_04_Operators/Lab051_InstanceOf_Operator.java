@@ -11,6 +11,6 @@ public class Lab051_InstanceOf_Operator {
         int a = 10;
         // System.out.println(a instanceof String);
         Integer b = 20;
-        System.out.println(b instanceof String);
+        // System.out.println(b instanceof String);
     }
 }
