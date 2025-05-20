@@ -1,6 +1,7 @@
 package ex_02_Java_Basics;
 
 public class Lab023_Byte {
+    /* byte: 8-bit signed integer, ranging from -128 to 127. */
     public static void main(String[] args) {
         byte age = 10;
         System.out.println(age);
