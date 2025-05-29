@@ -2,7 +2,7 @@ package ex_02_Java_Basics;
 
 public class Lab018 {
     public static void main(String[] args) {
-        int _ = 64;
+        //int _ = 64;
         int _1 = 65;
         int $ = 66;
         int year = 2025;
