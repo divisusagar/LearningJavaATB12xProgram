@@ -17,13 +17,20 @@ public class Task3_Triangle_Type {
         int side3 = scanner.nextInt();
 
         System.out.printf("side1=%d\tside2=%d\tside3=%d",side1,side2,side3).println();
+        // Check if the sides can form a triangle usig Triangle Inequality Theorem
+        if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1) {
+            // Classify the triangle
+            if (side1==side2 && side2==side3){
+                System.out.println("An Equilateral triangle has three equal sides");
+            }else if (side1==side2 || side2==side3 || side1==side3){
+                System.out.println("An Isosceles triangle has two equal sides");
+            }else
+                System.out.println("A Scalene triangle has three unequal sides");
+        } else {
+            System.out.println("Not a valid Triangle..");
+        }
 
-        if (side1==side2 && side2==side3){
-            System.out.println("An Equilateral triangle has three equal sides");
-        }else if (side1==side2 || side2==side3 || side1==side3){
-            System.out.println("An Isosceles triangle has two equal sides");
-        }else
-            System.out.println("A Scalene triangle has three unequal sides");
+
 
     }
 

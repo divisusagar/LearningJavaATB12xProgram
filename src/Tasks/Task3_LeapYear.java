@@ -6,22 +6,32 @@ public class Task3_LeapYear {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the Year: ");
-        if (scanner.hasNextInt()){
-            int input_year = scanner.nextInt();
-            System.out.println("Year "+input_year);
+        System.out.print("Enter the Month Number: ");
+        int month_num = scanner.nextInt();
 
-            if ((input_year%4 == 0 && input_year% 100 != 0) || input_year%400 == 0){
-                System.out.println(input_year+" year is a Leap Year");
+        switch (month_num) {
+            case 1,3,5,7,8,10,12: {
+                System.out.println("31 days");
+                break;
             }
-            else {
-                System.out.println(input_year+" year is a Non-Leap Year");
+            case 4,6,9,11: {
+                System.out.println("30 days");
+                break;
+            }
+            case 2: {
+                System.out.print("Enter the Year: ");
+                int input_year = scanner.nextInt();
+                if ((input_year%4 == 0 && input_year% 100 != 0) || input_year%400 == 0){
+                    System.out.println("It's a Leap Year, so 29 days");
+                }
+                else {
+                    System.out.println("It's a Non-Leap Year, so 28 days");
+                }
+                break;
+            }
+            default: {
+                System.out.println("Invalid Month Input");
             }
         }
-        else {
-            System.out.println("Invalid Year Input Provide. Please Re-run the Program");
-        }
-
-
     }
 }
