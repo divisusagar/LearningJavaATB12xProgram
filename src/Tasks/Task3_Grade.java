@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class Task3 {
+public class Task3_Grade {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
