@@ -3,7 +3,7 @@ package Java_String_Assessment.CodingChallenge1;
 public class StringOperations1 {
     public static void main(String[] args) {
 
-        System.out.println("\n--- Coding Challenge 2: String Comparison and Equality ---");
+        System.out.println("\n--- Coding Challenge 1: String Manipulation Basics ---");
 
         // 1. Initial String Declaration
         String originalString = "Hello";
