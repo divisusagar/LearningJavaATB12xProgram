@@ -32,3 +32,4 @@ public class PairExample {
         pair.display();  // Output: First: Test, Second: 100
     }
 }
+
